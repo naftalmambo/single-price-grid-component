@@ -1,6 +1,15 @@
 # Frontend Mentor - Single price grid component solution
 
-This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+## Design preview for the Single price grid component coding challenge
+
+| Desktop Version                                          | Mobile Version                                         |
+| :------------------------------------------------------- | :----------------------------------------------------- |
+| ![Desktop Screenshot](design/desktop-design.jpg) | ![Mobile Screenshot](design/mobile-design.jpg) |
+
+
+
+
+
 
 ## Table of contents
 
@@ -12,12 +21,9 @@ This is a solution to the [Single price grid component challenge on Frontend Men
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
   - [AI Collaboration](#ai-collaboration)
-- [Author](#author)
+- [Open for Opportunities & Collaboration](#open-for-opportunities--collaboration)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -25,98 +31,105 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 Users should be able to:
 
-- View the optimal layout for the component depending on their device's screen size
-- See a hover state on desktop for the Sign Up call-to-action
+- See hover and focus states for all interactive elements on the page
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+| Desktop Version                                          | Mobile Version                                         |
+| :------------------------------------------------------- | :----------------------------------------------------- |
+| ![Desktop Screenshot](assets/images/desktop-version.png) | ![Mobile Screenshot](assets/images/mobile-version.jpg) |
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/naftalmambo/Blog-Preview-Card-Main)
+- Live Site URL: (https://naftalmambo.github.io/Blog-Preview-Card-Main/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- **Semantic HTML5 markup**
+- **CSS custom properties**
+- **Flexbox**
+- **Mobile-first workflow**
+- **Google Fonts (Figtree)**
+- **VS Code** - My primary editor for writing clean, structured code.
+- **Linux (Ubuntu/WSL)** - My development environment for a professional, stable workflow.
+- **Windows Browser (Chrome)** - Used for cross-browser testing to ensure its responsive.
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This project was a great exercise in high-contrast UI design. I learned how to create a tactile interaction by manipulating box shadows and transforms on the :active state.
 
-To see how you can add code snippets, see below:
+I'm quite happy with this CSS code snippet that makes the card feel tactile, ensured the card fills the shadow completely on click:
+
+```css
+.card {
+  box-shadow: 8px 8px 0px 0px #000000;
+  transition: all 0.3s ease;
+}
+
+.card:active {
+  transform: translate(8px, 8px);
+  box-shadow: 0px 0px 0px 0px #000000;
+}
+```
+
+I also practiced using semantic HTML to improve accessibility, specifically using the `<time>` tag for the publication date:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<time class="card-date" datetime="2023-12-21">Published 21 Dec 2023</time>
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+In future work, I intend to focus on:
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- **Accesibility:** Ensuring every interactive element has perfect `focus-visible` styles for keyboard users. I've come to realise that even though HTML might seem simple but one must be intentional and considerate with every nesting and elements applied. Hence one should use semantic HTML to improve accessibility.
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- **Responsiveness:** I believe I've tried my best to make this project as responsive as possible through use of mobile-first approach, while also open to improvements.
 
 ### AI Collaboration
 
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
+I used a large language model trained by **Google** to refine the CSS architecture and ensure the project followed modern best practices.
 
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
+- **Tools Used:** Google AI.
+- **Refining Responsiveness:** I consulted the AI to verify if my CSS was strictly **mobile-first** and discussed the most effective placement for media queries.
+- **Code Optimization:** We brainstormed how to combine `width: 90%` and `max-width` to create a **fluid layout** that requires fewer breakpoints.
+- **Accessibility Check:** The assistant suggested semantic HTML tags (like `<time>` and `<main>`) and accessibility utilities like a `.sr-only` class to complement my styling.
 
-**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
+**What worked well:** The AI was excellent at explaining the **logic** behind mobile-first design, which helped me decide when to keep or remove specific media queries. It also helped ensure my hover and active states (like the card "button press" effect) were implemented smoothly.
 
-## Author
+## Open for Opportunities & Collaboration
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+This project marks the beginning of my journey toward becoming a professional Web Developer and ultimately a Java Full-Stack. I am currently:
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- 🔭 **Open for work:** Looking for junior roles or freelance opportunities where I can apply my skills in HTML, CSS, and Javascript(in-progress).
+- 🤝 **Open to contribute:** Interested in collaborating on open-source projects or team-based challenges.
+
+If you like what you see or have a project you need help with, connect with:
+
+**Author**
+
+- Frontend Mentor - [@naftalmambo](https://frontendmentor.io)
+- LinkedIn - [Naftal Mambo](https://linkedin.com)
+- GitHub - [@naftalmambo](https://github.com)
+- Discord - [devMambo](https://discordapp.com/users/1157321092482994246)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+### 🌟 Appreciation for Frontend Mentor
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I want to express my sincere gratitude to **[Frontend Mentor](https://www.frontendmentor.io)** for providing these incredible, real-world challenges that I am sure will enable me to grow to be the dev I aspire.
+
+This platform will be more than just a place to practice, it will be a gateway to building skills that truly **change lives**.
+
+By bridging the gap between theory and professional workflows, Frontend Mentor will help me build a rock-solid skill for a future where I can create meaningful digital solutions.
+
+## Credits
+
+While this is a [Frontend Mentor](https://www.frontendmentor.io) challenge, the structural and styling knowledge used to build it was gained through;
+* **freeCodeCamp**: For the consistent interactive practice that solidified my HTML and CSS fundamentals.
+* **The Odin Project**: For teaching me how to set up my local working environment and to think like a developer.
+
+
