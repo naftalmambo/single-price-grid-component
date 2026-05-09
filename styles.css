@@ -23,7 +23,7 @@ body {
   align-items: stretch;
   width: 90%;
   max-width: 22rem;
-  border-radius: 12px;
+  border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 1.5625rem 1.5625rem rgba(0, 0, 0, 0.05);
 }
@@ -33,7 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 40px 1.3rem;
+  padding: 2.5rem 1.3rem;
 }
 
 .section-intro h1 {
@@ -45,18 +45,18 @@ body {
 .intro-subtitle {
   color: hsl(71, 73%, 54%);
   font-weight: 600;
-  font-size: 17px;
+  font-size: 1.0625rem;
 }
 
 .intro-text {
   color: hsl(218, 22%, 67%);
   line-height: 2;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .section-pricing {
   background-color: hsl(179, 62%, 43%);
-  padding: 40px 1.3rem 32px 1.3rem;
+  padding: 2.5rem 1.3rem 2rem 1.3rem;
   display: flex;
   flex-direction: column;
 }
@@ -71,7 +71,7 @@ body {
 .pricing-container {
   margin-bottom: 12px;
   display: flex;
-  gap: 16px;
+  gap: 1rem;
   justify-content: flex-start;
   align-items: center;
 }
@@ -103,7 +103,7 @@ body {
   background-color: hsl(71, 73%, 54%);
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 .signup-btn:hover {
@@ -112,10 +112,10 @@ body {
 
 .section-features {
   background-color: hsla(179, 62%, 43%, 0.8);
-  padding: 40px 1.3rem;
+  padding: 2.5rem 1.3rem;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 1.5625rem;
 }
 
 .section-features h3 {
@@ -137,7 +137,7 @@ body {
 }
 
 .attribution {
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: center;
   margin-top: 20px;
   padding: 10px;
@@ -150,4 +150,32 @@ body {
 
 .attribution a:hover {
   text-decoration: underline;
+}
+
+.signup-btn:focus-visible,
+.attribution a:focus-visible {
+  outline: 2px solid hsl(71, 73%, 54%);
+  outline-offset: 2px;
+}
+
+@media (min-width: 40rem) {
+  .price-component {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 46rem;
+  }
+
+  .section-intro {
+    grid-column: span 2;
+    padding: 2.5rem;
+  }
+
+  .section-pricing,
+  .section-features {
+    padding: 2.5rem;
+  }
+}
+
+.attribution {
+  font-size: 0.75rem;
 }
