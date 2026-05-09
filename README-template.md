@@ -38,12 +38,12 @@ Users should be able to:
 
 | Desktop Version                                          | Mobile Version                                         |
 | :------------------------------------------------------- | :----------------------------------------------------- |
-| ![Desktop Screenshot](assets/images/desktop-version.png) | ![Mobile Screenshot](assets/images/mobile-version.jpg) |
+| ![Desktop Screenshot](images/desktop-version.png) | ![Mobile Screenshot](images/mobile-version1.jpg) | ![Mobile Screenshot](images/mobile-version2.jpg) |
 
 ### Links
 
-- Solution URL: (https://github.com/naftalmambo/Blog-Preview-Card-Main)
-- Live Site URL: (https://naftalmambo.github.io/Blog-Preview-Card-Main/)
+- Solution URL: (https://github.com/naftalmambo/single-price-grid-component)
+- Live Site URL: (https://naftalmambo.github.io/single-price-grid-component/)
 
 ## My process
 
