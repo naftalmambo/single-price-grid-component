@@ -138,13 +138,13 @@ body {
 .features-list {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 7px;
+  align-items:
 }
 
 .features-list li {
   list-style: none;
-  color: hsla(0, 0%, 100%, 0.8);
-  letter-spacing: 0.2px;
+  color: hsla(0, 0%, 100%, 0.7);
 }
 
 .attribution {
