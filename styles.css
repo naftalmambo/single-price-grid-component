@@ -45,7 +45,7 @@ body {
 .intro-subtitle {
   color: hsl(71, 73%, 54%);
   font-weight: 600;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .intro-text {
@@ -56,7 +56,7 @@ body {
 
 .section-pricing {
   background-color: hsl(179, 62%, 43%);
-  padding: 40px 1.3rem 30px 1.3rem;
+  padding: 40px 1.3rem 32px 1.3rem;
   display: flex;
   flex-direction: column;
 }
@@ -102,11 +102,8 @@ body {
   border: none;
   background-color: hsl(71, 73%, 54%);
   cursor: pointer;
-  transition: all 0.3s;
-  transition:
-    background-color 0.3s ease,
-    color 0.3s ease,
-    box-shadow 0.3s ease;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
 }
 
 .signup-btn:hover {
@@ -140,9 +137,17 @@ body {
 }
 
 .attribution {
-  font-size: 0.6875rem;
+  font-size: 12px;
   text-align: center;
+  margin-top: 20px;
+  padding: 10px;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
 }
