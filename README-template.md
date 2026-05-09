@@ -2,14 +2,9 @@
 
 ## Design preview for the Single price grid component coding challenge
 
-| Desktop Version                                          | Mobile Version                                         |
-| :------------------------------------------------------- | :----------------------------------------------------- |
+| Desktop Version                                  | Mobile Version                                 |
+| :----------------------------------------------- | :--------------------------------------------- |
 | ![Desktop Screenshot](design/desktop-design.jpg) | ![Mobile Screenshot](design/mobile-design.jpg) |
-
-
-
-
-
 
 ## Table of contents
 
@@ -36,14 +31,14 @@ Users should be able to:
 
 ### Screenshot
 
-| Desktop Version                                          | Mobile Version                                         |
-| :------------------------------------------------------- | :----------------------------------------------------- |
+| Desktop Version                                   | Mobile Version                                   |
+| :------------------------------------------------ | :----------------------------------------------- | ------------------------------------------------ |
 | ![Desktop Screenshot](images/desktop-version.png) | ![Mobile Screenshot](images/mobile-version1.jpg) | ![Mobile Screenshot](images/mobile-version2.jpg) |
 
 ### Links
 
-- Solution URL: (https://github.com/naftalmambo/single-price-grid-component)
-- Live Site URL: (https://naftalmambo.github.io/single-price-grid-component/)
+- Solution URL: [GitHub Repository](https://github.com/naftalmambo/single-price-grid-component)
+- Live Site URL: [Live Demo](https://naftalmambo.github.io/single-price-grid-component/)
 
 ## My process
 
@@ -130,7 +125,6 @@ By bridging the gap between theory and professional workflows, Frontend Mentor w
 ## Credits
 
 While this is a [Frontend Mentor](https://www.frontendmentor.io) challenge, the structural and styling knowledge used to build it was gained through;
-* **freeCodeCamp**: For the consistent interactive practice that solidified my HTML and CSS fundamentals.
-* **The Odin Project**: For teaching me how to set up my local working environment and to think like a developer.
 
-
+- **freeCodeCamp**: For the consistent interactive practice that solidified my HTML and CSS fundamentals.
+- **The Odin Project**: For teaching me how to set up my local working environment and to think like a developer.
