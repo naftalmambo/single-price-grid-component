@@ -89,7 +89,7 @@ body {
 
 .pricing-description {
   margin-bottom: 40px;
-  color: hsl(0, 0%, 100%);
+  color: hsla(0, 0%, 100%, 0.9);
   font-size: 1.2rem;
 }
 
@@ -102,12 +102,23 @@ body {
   border: none;
   background-color: hsl(71, 73%, 54%);
   cursor: pointer;
-  transition: all 0.3s ease;
+  .signup-btn {
+    transition:
+      transform 0.3s ease-in-out,
+      background-color 0.3s ease;
+  }
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 .signup-btn:hover {
   color: hsl(0, 0%, 100%);
+}
+
+.signup-btn:active {
+  transform: scale(0.98);
+  background-color: hsl(71, 73%, 45%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: hsl(179, 62%, 43%);
 }
 
 .section-features {
