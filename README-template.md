@@ -31,9 +31,12 @@ Users should be able to:
 
 ### Screenshot
 
-| Desktop Version                                   | Mobile Version                                   |
-| :------------------------------------------------ | :----------------------------------------------- | ------------------------------------------------ |
-| ![Desktop Screenshot](images/desktop-version.png) | ![Mobile Screenshot](images/mobile-version1.jpg) | ![Mobile Screenshot](images/mobile-version2.jpg) |
+### Screenshots
+
+
+| Desktop View | Mobile View 1 | Mobile View 2 |
+| :---: | :---: | :---: |
+| ![Desktop](images/desktop-version.png) | ![Mobile 1](images/mobile-version1.jpg) | ![Mobile 2](images/mobile-version2.jpg) |
 
 ### Links
 
