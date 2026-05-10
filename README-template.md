@@ -35,7 +35,7 @@ Users should be able to:
 
 |              Desktop View              |              Mobile View 1              |              Mobile View 2              |
 | :------------------------------------: | :-------------------------------------: | :-------------------------------------: |
-| ![Desktop](images/desktop-version.png) | ![Mobile 1](images/mobile-version1.jpg) | ![Mobile 2](images/mobile-version2.jpg) |
+| ![Desktop](images/desktop-version.png) | ![Mobile 1]() | ![Mobile 2]() |
 
 ### Links
 
@@ -118,11 +118,6 @@ Throughout this project, I used an AI-collaborative workflow to:
 - **Refine Logic:** Instead of just copying code, I used AI to explain "why" certain properties like `align-items: stretch` were necessary.
 - **Master Best Practices:** I learned to implement professional standards such as **REM units**, **semantic HTML**.
 - **Debugging & Polish:** I collaborated with AI to solve specific UI bugs (like the rounded corner clipping issue) and to perfect micro-interactions like the button "shrink" effect.
-
-**What worked well:** 
-
-
-
 
 ## Open for Opportunities & Collaboration
 
