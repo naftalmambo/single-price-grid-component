@@ -33,7 +33,6 @@ body {
   display: flex;
   flex-direction: column;
   padding: 2.5rem 1.3rem;
-  
 }
 
 .section-intro h1 {
@@ -48,15 +47,13 @@ body {
   font-weight: 700;
   font-size: 1.0625rem;
   margin-bottom: 16px;
-  
-  
 }
 
 .intro-text {
   color: hsl(218, 22%, 67%);
-  line-height: 1.6;
+  line-height: 1.7;
   font-size: 1rem;
-  letter-spacing: -0.3px ;
+  letter-spacing: -0.4px;
 }
 
 .section-pricing {
@@ -150,7 +147,7 @@ body {
   list-style: none;
   color: hsla(0, 0%, 100%, 0.7);
   font-weight: 400;
-  font-size: 1rem
+  font-size: 1rem;
 }
 
 .attribution {
