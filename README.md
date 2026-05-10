@@ -1,6 +1,6 @@
 # Frontend Mentor - Single price grid component solution
 
-## Design preview for the Single price grid component coding challenge
+### Design preview for the Single price grid component coding challenge
 
 | Desktop Version                                  | Mobile Version                                 |
 | :----------------------------------------------- | :--------------------------------------------- |
