@@ -29,7 +29,6 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
 
 ### Screenshots
 
@@ -80,7 +79,6 @@ I learned that when using `flex-direction: column`, children often shrink to fit
 ```css
 .price-component {
   border-radius: 8px;
-  /* Learned: Clips child backgrounds to respect the parent's rounded edges */
   overflow: hidden;
 }
 ```
